@@ -5,14 +5,22 @@ using UnityEngine.SceneManagement;
 //Free to use
 public class MenuController : MonoBehaviour 
 {
-
-    public void LoadScene(int scene)
+    void Update()
+    {
+        if (Input.GetKeyDown("escape")) //Exit the application using ESC
+        {
+            Exit();
+        }
+    }
+    public void LoadScene(int scene) //Choose Scene in Unity Editor
     {
         SceneManager.LoadScene(scene); 
     }
 
-    public void Exit() 
+    public void Exit() //Exit the application. For the buttons.
     { 
         Application.Quit(); 
-    } 
+    }
+
+
 }
