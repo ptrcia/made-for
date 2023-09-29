@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7026660875638851663}
   m_Layer: 0
   m_Name: Spot Light (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 1102630240400221828}
   m_Layer: 0
   m_Name: Point Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 92081172852438361}
   m_Layer: 0
   m_Name: Spot Light
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,6 +342,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7174714435757168716, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -4583727727516811711, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -4277595591479126054, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -2067756152520684128, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.041
@@ -385,6 +397,22 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
       propertyPath: m_Name
       value: car
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3561534992275998225, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208626693309556170, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920399810734807337, guid: 64b372cfcca9ba34082c01862ba2f189, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -543,7 +571,7 @@ WheelCollider:
   m_GameObject: {fileID: 4147224897359803715}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.002
+  m_Radius: 0.003
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -587,7 +615,7 @@ WheelCollider:
   m_GameObject: {fileID: 5225206687412325651}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.002
+  m_Radius: 0.003
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -808,7 +836,7 @@ WheelCollider:
   m_GameObject: {fileID: 7280653254422047355}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.002
+  m_Radius: 0.003
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -852,7 +880,7 @@ WheelCollider:
   m_GameObject: {fileID: 7848320519939561112}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.002
+  m_Radius: 0.003
   m_SuspensionSpring:
     spring: 35000
     damper: 4500

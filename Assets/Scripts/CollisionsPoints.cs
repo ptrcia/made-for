@@ -4,7 +4,7 @@ using System.Globalization;
 using UnityEngine;
 //Patricia Gracia Artero
 //Free to use
-public class CollisionsPoints : MonoBehaviour
+public class Collisions : MonoBehaviour
 {
     //This script is attached to the objects to be thrown to the ground.
     //When your collider collides with the collider on the ground,
