@@ -15,17 +15,17 @@ public class LightCarController : MonoBehaviour
     }
     void Update()
     {
-        sunRotation = sun.transform.rotation.x;
+        sunRotation = sun.transform.localEulerAngles.x;
 
         //Debug.Log(sunRotation);
 
-        if(sunRotation < -0.2)
+        if(sunRotation > 0 && sunRotation < 180)
         {
-            carLight.enabled = true;   
+            carLight.enabled = false;   
         }
-        else if(sunRotation < 0.3)
+        else
         {
-            carLight.enabled = false;
+            carLight.enabled = true;
         }
     }  
 }

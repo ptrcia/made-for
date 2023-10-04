@@ -669,8 +669,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.029571008, y: 0.35360023, z: 0.2688267}
-  m_Center: {x: 0.0012731736, y: 0.0025428392, z: -0.18526101}
+  m_Size: {x: 0.029013203, y: 0.35360023, z: 0.2688267}
+  m_Center: {x: 0.00126048, y: 0.0025428392, z: -0.18526101}
 --- !u!65 &2330214982161398804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -711,8 +711,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0048229177, y: 0.35360023, z: 0.23466939}
-  m_Center: {x: -0.025444852, y: 0.0025428394, z: -0.16818234}
+  m_Size: {x: 0.0042239456, y: 0.35360023, z: 0.2346694}
+  m_Center: {x: -0.02574434, y: 0.0025428394, z: -0.16818234}
 --- !u!65 &2340681849733867770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -732,8 +732,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.009153302, y: 0.35360023, z: 0.10103478}
-  m_Center: {x: -0.018394066, y: 0.0025428394, z: -0.25942773}
+  m_Size: {x: 0.009153302, y: 0.35360023, z: 0.08443083}
+  m_Center: {x: -0.018394066, y: 0.0025428392, z: -0.26772988}
 --- !u!65 &4463044859573473676
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -753,8 +753,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.008931212, y: 0.35360023, z: 0.11253202}
-  m_Center: {x: 0.020635048, y: 0.0025428392, z: -0.2666129}
+  m_Size: {x: 0.008931212, y: 0.35360023, z: 0.10041913}
+  m_Center: {x: 0.020635048, y: 0.0025428392, z: -0.27266943}
 --- !u!65 &3578923457245121947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -774,8 +774,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0043232413, y: 0.35360023, z: 0.27202985}
-  m_Center: {x: 0.02743599, y: 0.0025428392, z: -0.18686247}
+  m_Size: {x: 0.0041901344, y: 0.35360023, z: 0.27202985}
+  m_Center: {x: 0.027502544, y: 0.0025428392, z: -0.18686247}
 --- !u!136 &7032626464168942540
 CapsuleCollider:
   m_ObjectHideFlags: 0

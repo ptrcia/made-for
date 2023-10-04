@@ -13,6 +13,6 @@ public class LightController : MonoBehaviour
     void Update()
     {
         rotationSpeed = Time.deltaTime / dayLength;
-        transform.Rotate(0, rotationSpeed, 0);
+        transform.Rotate(rotationSpeed, 0, 0);
     }
 }
