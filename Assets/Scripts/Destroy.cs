@@ -7,8 +7,8 @@ public class Destroy : MonoBehaviour
 {
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision) //no funciona no tienen rigidbody
     {
-        Destroy(gameObject);
+        Destroy(collision.gameObject);
     }
 }

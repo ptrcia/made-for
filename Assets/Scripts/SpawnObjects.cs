@@ -13,9 +13,7 @@ public class SpawnObjects : MonoBehaviour
 
     void Start()
     {
-        //Invoke("CreateObjects", 3); //para que vaya automatico
-        InvokeRepeating("CreateObjects", 3, 3);
-        //tarda 3 segundos la primera vez que se llame, y luego cada 5 segundos
+        Invoke("CreateObjects", Random.Range(2f, 4f));
     }
 
     // Update is called once per frame
@@ -33,6 +31,7 @@ public class SpawnObjects : MonoBehaviour
         prefabClone.transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         Destroy(prefabClone, 5);
+        Invoke("CreateObjects", Random.Range(2f, 4f));
 
     }
 }
