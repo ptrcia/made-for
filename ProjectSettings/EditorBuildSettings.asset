@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/03-ChildRoom.unity
     guid: 5b97516ee72aa4941943c1051fd69eca
+  - enabled: 1
+    path: Assets/Scenes/04-AdultRoom.unity
+    guid: 1073ac5c8e0bc9a46a27862081a1a12c
   m_configObjects: {}

@@ -8,7 +8,7 @@ public class SpawnObjects : MonoBehaviour
     public GameObject prefab;
     public Transform transformChild;
     //public float force = 5;
-    public float speed = 5;
+    //public float speed = 5;
 
 
     void Start()
@@ -26,13 +26,16 @@ public class SpawnObjects : MonoBehaviour
 
     void CreateObjects()
     {
-        GameObject prefabClone = Instantiate(prefab, transformChild.position, transformChild.rotation);
+        Quaternion rotaion = Quaternion.Euler(
+                Random.Range(0, 360),
+                Random.Range(0, 360),
+                Random.Range(0, 360));
+        GameObject prefabClone = Instantiate(prefab, transformChild.position, rotaion);
 
-        prefabClone.transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        //prefabClone.transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
-        Destroy(prefabClone, 5);
+        //Destroy(prefabClone, 5);
         Invoke("CreateObjects", Random.Range(2f, 4f));
-
     }
 }
 
