@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Patricia Gracia Artero
+//Free to use
 public class CarMovement : MonoBehaviour
 {
-    public float speed;
-
-    public Rigidbody rb1, rb2;
-
-    public Vector3 offset;
+    [SerializeField]
+    private float speed;
+    [SerializeField]
+    private Rigidbody rb1, rb2;
+    [SerializeField]
+    private Vector3 offset;
 
     private void Start()
     {

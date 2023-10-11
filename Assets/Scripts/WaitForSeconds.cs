@@ -7,8 +7,10 @@ using UnityEngine.Events;
 
 public class WaitForSeconds : MonoBehaviour
 {
-    public float seconds;
-    public UnityEvent action;
+    [SerializeField]
+    private float seconds;
+    [SerializeField]
+    private UnityEvent action;
 
     void Start()
     {
@@ -17,7 +19,7 @@ public class WaitForSeconds : MonoBehaviour
 
     IEnumerator Count()
     {
-        // yield on a new YieldInstruction that waits for 5 seconds.
+        // yield on a new YieldInstruction that waits for 5 seconds
         yield return new WaitForSecondsRealtime(seconds);
         //then:
         action.Invoke();

@@ -2,40 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Patricia Gracia Artero
+//Free to use
 public class SpawnObjects : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public GameObject prefab;
-    public Transform transformChild;
-    //public float force = 5;
-    //public float speed = 5;
-
+    [SerializeField]
+    private GameObject prefab;
+    [SerializeField]
+    private Transform transformChild;
 
     void Start()
     {
         Invoke("CreateObjects", Random.Range(2f, 4f));
     }
 
-    // Update is called once per frame
     void Update()
     {
-
          //CreateObjects();
-
     }
 
     void CreateObjects()
     {
-        Quaternion rotaion = Quaternion.Euler(
+        Quaternion rotation = Quaternion.Euler(
                 Random.Range(0, 360),
                 Random.Range(0, 360),
                 Random.Range(0, 360));
-        GameObject prefabClone = Instantiate(prefab, transformChild.position, rotaion);
+        GameObject prefabClone = Instantiate(prefab, transformChild.position, transform.rotation);
 
-        //prefabClone.transform.Translate(Vector3.forward * speed * Time.deltaTime);
-
-        //Destroy(prefabClone, 5);
         Invoke("CreateObjects", Random.Range(2f, 4f));
     }
+
 }
 

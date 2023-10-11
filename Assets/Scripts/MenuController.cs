@@ -8,7 +8,7 @@ public class MenuController : MonoBehaviour
 {
     //public UnityEvent continueNextScene;
     //public GameObject continueScene;
-    int nextScene;
+    //int nextScene;
     Scene sceneLoaded;
     private void Start()
     {
@@ -30,6 +30,9 @@ public class MenuController : MonoBehaviour
                 SceneManager.LoadScene(sceneLoaded.buildIndex + 1);
             }
         }*/
+
+        //I know this is outrageous, but it works :)
+        //Is a shortcut for me to work easier
         if (Input.GetKey("0"))
         {
             SceneManager.LoadScene(0);
@@ -69,10 +72,8 @@ public class MenuController : MonoBehaviour
     { 
         Application.Quit(); 
     }
-    public void URL()
+    public void URL() //Unity Method to include URL to click on
     {
         Application.OpenURL("https://ptrcia.github.io/porfolio/");
     }
-
-
 }

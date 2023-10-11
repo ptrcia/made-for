@@ -4,11 +4,16 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
+//Patricia Gracia Artero
+//Free to use
 public class PauseManager : MonoBehaviour
 {
-    public GameObject pausePanel;
-    public Slider sliderMaster;
-    public AudioMixer audioMixer;
+    [SerializeField]
+    private GameObject pausePanel;
+    [SerializeField]
+    private Slider sliderMaster;
+    [SerializeField]
+    private AudioMixer audioMixer;
 
     private void Start()
     {

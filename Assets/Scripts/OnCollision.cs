@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+//Patricia Gracia Artero
+//Free to use
 public class OnCollision : MonoBehaviour
 {
-    public Collider objectCollider;
-    public UnityEvent action;
-    // Start is called before the first frame update
+    [SerializeField]
+    private Collider objectCollider;
+    [SerializeField]
+    private UnityEvent action;
     void Awake()
     {
         objectCollider = GetComponent<Collider>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (objectCollider.isTrigger == true)

@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+//Patricia Gracia Artero
+//Free to use
 public class LightCarController : MonoBehaviour
 {
-    public Light carLight;
-    public Transform sun;
-    public float sunRotation;
+    [SerializeField]
+    private Light carLight;
+    [SerializeField]
+    private Transform sun;
+    [SerializeField]
+    private float sunRotation;
 
     void Awake()
     {
@@ -15,7 +20,7 @@ public class LightCarController : MonoBehaviour
     }
     void Update()
     {
-        sunRotation = sun.transform.localEulerAngles.x;
+        sunRotation = sun.transform.localEulerAngles.x; //localEulerAngels to transform the nombers from randomness to something manageable
 
         //Debug.Log(sunRotation);
 

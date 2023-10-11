@@ -9,9 +9,11 @@ public class RoadMovement : MonoBehaviour
     //This script creates the illusion that the car is moving along the road,
     //but what we do behind the scenes is to move the texture backwards.
     //back Z positive, down, forward, left X positive
-
-    public float ScrollX = 1f; //If I value both, the movement is diagonal.
-    public float ScrollY = 0;
+    [SerializeField]
+    private float ScrollX = 1f; //If I value both, the movement is diagonal.
+   
+    [SerializeField] 
+    private float ScrollY = 0;
 
     void Update ()
     {

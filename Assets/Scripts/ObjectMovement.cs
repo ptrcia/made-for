@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Patricia Gracia Artero
+//Free to use
 public class ObjectMovement : MonoBehaviour
 {
-    public float speed = 1;
-    // Start is called before the first frame update
+    [SerializeField]
+    private float speed = 1;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.left * speed);

@@ -7,12 +7,15 @@ using UnityEngine;
 
 public class LightController : MonoBehaviour
 {
-    public float dayLength;
+    //I hace control over the rotation of the sun 
+    [SerializeField]
+    private float dayLength;
     float rotationSpeed;
 
     void Update()
     {
         rotationSpeed = Time.deltaTime / dayLength;
-        transform.Rotate(rotationSpeed, 0, 0);
+        transform.Rotate(rotationSpeed, 0, 0); 
+        //I know the movement is simple, that it just rotate in one axis but :)
     }
 }
