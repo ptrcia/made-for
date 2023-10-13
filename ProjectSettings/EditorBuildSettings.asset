@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/04-AdultRoom.unity
     guid: 1073ac5c8e0bc9a46a27862081a1a12c
+  - enabled: 1
+    path: Assets/Scenes/05-ElderRoom.unity
+    guid: e7d60a409e57a1641810dd01785aab0a
+  - enabled: 1
+    path: Assets/Scenes/06-finalRoom.unity
+    guid: 4a78a3aed72dfaf4f984d81d12310245
   m_configObjects: {}
