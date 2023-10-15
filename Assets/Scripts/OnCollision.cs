@@ -16,12 +16,21 @@ public class OnCollision : MonoBehaviour
         objectCollider = GetComponent<Collider>();
     }
 
-    void Update()
+    /*void Update()
     {
         if (objectCollider.isTrigger == true)
         {
             action.Invoke();
         }
+        Debug.Log();
    
+    }*/
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("Player has collisioned (xddd)");
+            action.Invoke();
+        }
     }
 }
