@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64b372cfcca9ba34082c01862ba2f189
+guid: 6b545484e40f04447a86cdf25d93df23
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,47 +7,47 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarBottom
+      name: CarBottom.001
     second: {fileID: 2100000, guid: 04678fbdbbee11141bde534f1dc7791f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarChasis
+      name: CarChasis.001
     second: {fileID: 2100000, guid: 2395a455a0e99c54897bdb7ab7c3007e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarLIghtsBack
+      name: CarLIghtsBack.001
     second: {fileID: 2100000, guid: a8ecb9cf5c0cbc14897647fd0ba56c84, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarLights
+      name: CarLights.001
     second: {fileID: 2100000, guid: 5b171f747c3e8d940b6d5e2f681ac4c6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarRack
+      name: CarRack.001
     second: {fileID: 2100000, guid: 5fe36dec27fc19a4b992292c893ecac5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: CarWindow
+      name: CarWindow.001
     second: {fileID: 2100000, guid: dd0dc57bd8c472e40bce5d4a0ebda7cb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: RoofRack
+      name: RoofRack.002
     second: {fileID: 2100000, guid: c8698fb284037ca46a7884036f0e35f9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Wheels
+      name: Wheels.001
     second: {fileID: 2100000, guid: 031c60c1d94eb4f4985b1a902f8f522d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: WheelsInner
+      name: WheelsInner.001
     second: {fileID: 2100000, guid: fe4ff88ecfe16f94384e44f8e301e476, type: 2}
   materials:
     materialImportMode: 2
