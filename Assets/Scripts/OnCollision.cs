@@ -7,7 +7,6 @@ using UnityEngine.Events;
 //Free to use
 public class OnCollision : MonoBehaviour
 {
-    [SerializeField]
     private Collider objectCollider;
     [SerializeField]
     private UnityEvent action;

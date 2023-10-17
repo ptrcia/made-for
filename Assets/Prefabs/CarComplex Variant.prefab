@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 725535418116702499, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
+      propertyPath: m_Mass
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 4877468569715444611, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
       propertyPath: m_Name
       value: CarComplex Variant
@@ -15,6 +19,18 @@ PrefabInstance:
     - target: {fileID: 4877468569715444611, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259060318217556281, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259060318217556281, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259060318217556281, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5259060318217556281, guid: 20b2fd0deb87aea44945b68a1237c48c, type: 3}
       propertyPath: m_LocalPosition.x

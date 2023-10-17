@@ -22,7 +22,7 @@ public class IndependentMovement : MonoBehaviour
             destination = transform.position + Vector3.right * distanceDestination;
         }
         else if (up)
-        {//tendria que hacer que el destination fuera mas a tomar por culo GGGGGGGGGGGGGGGG
+        {
             destination = transform.position + Vector3.up * distanceDestination;
 
         }

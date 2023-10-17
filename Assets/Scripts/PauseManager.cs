@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 //Patricia Gracia Artero
@@ -45,5 +46,10 @@ public class PauseManager : MonoBehaviour
     public void volumeMaster(float volume)
     {
         audioMixer.SetFloat("volumeMaster", volume);
+    }
+    public void ReloadScene()
+    {
+        int actualScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(actualScene);
     }
 }
