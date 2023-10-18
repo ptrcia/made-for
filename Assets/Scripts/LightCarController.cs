@@ -23,7 +23,6 @@ public class LightCarController : MonoBehaviour
          sunRotation = sun.transform.localEulerAngles.x; //localEulerAngels to transform the nombers from randomness to something manageable
 
          if(sunRotation > 0 && sunRotation < 90) //0, 180   /50,330
-
          {
              carLight.enabled = false;   
          }
@@ -32,8 +31,7 @@ public class LightCarController : MonoBehaviour
              carLight.enabled = true;
          }
 
-         Debug.Log("Ángulo de rotación alrededor del eje X: " + sunRotation + " grados");
+         //Debug.Log("Ángulo de rotación alrededor del eje X: " + sunRotation + " grados");
      }  
 
 }
-//(sunRotation>70 &&sunRotation<90 ) &&(sunRotation>90 &&sunRotation>0) && (sunRotation<360 && sunRotation>270) && (sunRotation<270&&sunRotation>310)

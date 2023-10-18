@@ -6,9 +6,6 @@ using UnityEngine.Events;
 //Free to use
 public class MenuController : MonoBehaviour 
 {
-    //public UnityEvent continueNextScene;
-    //public GameObject continueScene;
-    //int nextScene;
     Scene sceneLoaded;
     private void Start()
     {

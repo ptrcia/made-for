@@ -50,6 +50,9 @@ public class PauseManager : MonoBehaviour
     public void ReloadScene()
     {
         int actualScene = SceneManager.GetActiveScene().buildIndex;
+        Time.timeScale = 0;
+        AudioListener.pause = true;
         SceneManager.LoadScene(actualScene);
+
     }
 }

@@ -8,7 +8,7 @@ using UnityEngine;
 //Free to use
 public class Destroy : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision) //no funciona no tienen rigidbody
+    private void OnCollisionEnter(Collision collision) //it does not work if thtere is no rigidbidy
     {
         Destroy(collision.gameObject);
     }

@@ -27,6 +27,6 @@ public class LightIntensity : MonoBehaviour
     void Update()
     {
         progress = (Time.time - inicialFadeTime) / fade;
-        lightObject.intensity = Mathf.Lerp(inicialIntensity, targetIntensity, progress);
+        lightObject.intensity = Mathf.Lerp(inicialIntensity, targetIntensity, progress); //lerp to constant increasing
     }
 }

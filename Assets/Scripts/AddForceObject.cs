@@ -7,7 +7,7 @@ using UnityEngine;
 public class AddForceObject : MonoBehaviour
 {
     [SerializeField]
-    private float force;
+    float force;
     [SerializeField]
     Rigidbody rb;
  
@@ -22,6 +22,6 @@ public class AddForceObject : MonoBehaviour
 
     void AddForce()
     {
-        rb.AddForce(transform.up * force);
+        rb.AddForce(transform.right * force);
     }
 }
