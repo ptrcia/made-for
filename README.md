@@ -31,7 +31,7 @@ https://ambientcg.com/view?id=Tiles107
 
 
 //Unity Assets
-Low Poly waterhttps://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563 
+Low Poly water https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563 
 
 //Music
 General music https://pixabay.com/es/sound-effects/wandering-6394/ 

@@ -3,24 +3,71 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Patricia Gracia Artero
+//Free to use
+
 public class SimpleCarMovement : MonoBehaviour
 {
-    public float speed = 10.0f; // Car speed
-    public float turnSpeed = 100.0f; // Turning speed
+    [SerializeField] float speed = 10.0f, turnSpeed = 100.0f;
+    float vertical, horizontal;
+    public Transform rightWheel, leftWheel;
+    Rigidbody rb;
 
-    void Update()
+    private void Awake()
     {
-        float verticalMovement = Input.GetAxis("Vertical"); // Vertical axis (W or S or arrow keys up/down)
-        float horizontalMovement = Input.GetAxis("Horizontal"); // Horizontal axis (A or D or arrow keys left/right)
+        rb = GetComponent<Rigidbody>();
+    }
+    private void Update()
+    {
+        InputPlayer();
+    }
 
-        // Calculate the translation based on keyboard input
-        float verticalTranslation = verticalMovement * speed * Time.deltaTime;
-        float horizontalRotation = horizontalMovement * turnSpeed * Time.deltaTime;
+    void FixedUpdate()
+    {
+        Move();
+        Turn();
+        TurningWheels();
+    }
+    void InputPlayer()
+    {
+        vertical = Input.GetAxis("Vertical"); // Vertical axis (W or S or arrow keys up/down)
+        horizontal = Input.GetAxis("Horizontal"); // Horizontal axis (A or D or arrow keys left/right)
+    }
 
-        // Apply vertical movement to the car
-        transform.Translate(Vector3.forward * verticalTranslation);
+    void Move()
+    {
 
-        // Apply horizontal rotation to the car
-        transform.Rotate(Vector3.up * horizontalRotation);
+        //the movement i want it to do
+        Vector3 movement = transform.forward * vertical * speed * Time.deltaTime;
+
+        //apply movement
+        rb.MovePosition(transform.position + movement);
+    }
+
+    void Turn()
+    {
+        float turn = horizontal * turnSpeed * Time.deltaTime;
+        //euler to transform 
+        Quaternion turnRotation = Quaternion.Euler(0, turn, 0);
+        //apply rotation
+        rb.MoveRotation(transform.rotation * turnRotation);
+    }
+    void TurningWheels() //rotaion of the wheels to get the feeling
+    {
+        if (horizontal > 0.5f)
+        {
+            rightWheel.transform.localRotation = Quaternion.Euler(0, 45, 0);
+            leftWheel.transform.localRotation = Quaternion.Euler(0, 45, 0);
+        }
+        else if (horizontal < -0.5f)
+        {
+            rightWheel.transform.localRotation = Quaternion.Euler(0, -45, 0);
+            leftWheel.transform.localRotation = Quaternion.Euler(0, -45, 0);
+        }
+        else
+        {
+            rightWheel.transform.localRotation = Quaternion.identity;
+            leftWheel.transform.localRotation = Quaternion.identity;
+        }
     }
 }

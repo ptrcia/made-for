@@ -15,24 +15,28 @@ public class AlphaController : MonoBehaviour
 
     [SerializeField]
     float fade = 2.0f; // duration of the fading
-    float finalAlpha;
     [SerializeField]
     float targetAlpha = 0;
     float progress;
 
-    void Start()
+    private void Awake()
     {
         image = GetComponent<Image>();
-        inicialAlpha = image.color.a;
-        //targetAlpha = new Color(colorInicial.r, colorInicial.g, colorInicial.b, 0);
+    }
+
+    void Start()
+    {
+        inicialAlpha = image.color.a; //a = alpha
         inicialFadeTime = Time.time;
 
     }
+
     private void Update()
     {
         //image.color.a = 0;
         //image.color -= new Color(0f, 0f, 0f, inicialAlpha);
         progress = (Time.time - inicialFadeTime) / fade;
+                          //from inicial alpha -> the alpha i want ->the velocity of the fading
         float actualAlpha = Mathf.Lerp(inicialAlpha, targetAlpha, progress);
 
         Color newColor = image.color;

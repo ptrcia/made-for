@@ -19,6 +19,7 @@ public class PauseManager : MonoBehaviour
     private void Start()
     {
         sliderMaster.value = PlayerPrefs.GetFloat("volumeMaster");
+        Time.timeScale = 1;
 
     }
     private void Update()

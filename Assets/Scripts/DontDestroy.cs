@@ -12,15 +12,22 @@ public class DontDestroy : MonoBehaviour
     }
     private void Start()
     {  
-        if(SceneManager.GetActiveScene().name == "06-FinalRoom")
-        {
-            DestroyNow();
-        }         
+               
     }
 
     //This may be a way to stop the audio
     public void DestroyNow()
     {
-        Destroy(this);
+        Destroy(this.gameObject);
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        print("Comprobando nivel");
+        if (level == 5)
+        {
+            print("Ultimo nivel");
+            DestroyNow();
+        }
     }
 }

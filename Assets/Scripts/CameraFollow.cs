@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform player;
-    public Vector3 offset;
-    public float smoothTargetTime;
+    [SerializeField] Transform player;
+    [SerializeField] Vector3 offset;
+    [SerializeField] float smoothTargetTime;
     Vector3 dampVelocity;
 
     // Start is called before the first frame update
@@ -21,6 +21,6 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.SmoothDamp(transform.position,
-            player.position + offset, ref dampVelocity, smoothTargetTime);
+        player.position + offset, ref dampVelocity, smoothTargetTime);
     }
 }

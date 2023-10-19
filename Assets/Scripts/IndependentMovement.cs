@@ -30,8 +30,12 @@ public class IndependentMovement : MonoBehaviour
 
     void Update()
     {  
-        transform.Translate((destination - transform.position).normalized 
+        if(Vector3.Distance(destination, transform.position) > 0.4f)
+        {
+            transform.Translate((destination - transform.position).normalized
             * speedMovement
             * Time.deltaTime);
+        }
+        
     }
 }

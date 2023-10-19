@@ -447,15 +447,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 374177906286644044, guid: c3de533abb40ca448944d90005f65d4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6201768
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 374177906286644044, guid: c3de533abb40ca448944d90005f65d4c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.119099855
+      value: 0.029
       objectReference: {fileID: 0}
     - target: {fileID: 374177906286644044, guid: c3de533abb40ca448944d90005f65d4c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.4237229
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 374177906286644044, guid: c3de533abb40ca448944d90005f65d4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -506,17 +506,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2419350066760644903, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.35
-      objectReference: {fileID: 0}
     - target: {fileID: 8619341430352535941, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
       propertyPath: m_Name
       value: CarBasic
-      objectReference: {fileID: 0}
-    - target: {fileID: 8619341430352535941, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8995339860101839679, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
       propertyPath: m_LocalPosition.x
