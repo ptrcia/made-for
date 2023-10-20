@@ -4,10 +4,11 @@ Tiny videogame project in Unity3D
 ##  Date : 26-09-23
 
 ##  External Resources:
+<pre>
+//**Textures**  
 
-//Textures
-Table Design (Baby Room)
-https://www.miravia.es/p/i1356291378175213-s2069459126484205.html 
+Table Design (Baby Room)  
+(https://www.miravia.es/p/i1356291378175213-s2069459126484205.html)
 Doodles (Baby Room)
 https://www.ourkidsimagine.com/making-marks-drawings/
 https://abclearningcenterfl.com/psychology-childrens-artwork/ 
@@ -29,15 +30,18 @@ https://www.mouthshut.com/review/Apollo-Hospital-Bannerghatta-Bangalore-review-o
 Tile Floor (Elder Room)
 https://ambientcg.com/view?id=Tiles107 
 
+<pre>
+//**Unity Assets**  
 
-//Unity Assets
 Low Poly water https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563 
+<pre>
+//**Music**  
 
-//Music
 General music https://pixabay.com/es/sound-effects/wandering-6394/ 
 Final music https://pixabay.com/es/music/grupo-acustico-sedative-110241/ 
+<pre>
+//**Sound Effects**  
 
-//Sound Effects
 Arguing (Baby Room)
 https://www.youtube.com/watch?v=xaK1v6dfWbk&ab_channel=FreeSoundEffects
 School audio (Child Room)
@@ -50,7 +54,8 @@ https://pixabay.com/es/sound-effects/conversation-25675/
 Light Switch (Elder Room)
 https://pixabay.com/es/sound-effects/light-switch-156813/
 
-//Other
+//**Other**  
+
 Emergency numbers https://faq.whatsapp.com/1417269125743673/?helpref=uf_share
 
 
