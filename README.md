@@ -1,5 +1,5 @@
 # MadeFor
-Tiny videogame project in Unity3D
+Tiny videogame project in Unity3D and Blender.
 # Created by: Patricia S. Gracia Artero
 ##  Date : 26-09-23
 ##  About:
@@ -53,7 +53,6 @@ If you have problems or do not see that light, **please ask for help**.
 [Arguing (Baby Room)]  
 (https://www.youtube.com/watch?v=xaK1v6dfWbk&ab_channel=FreeSoundEffects)  
 [School audio (Child Room)]  
-(https://pixabay.com/es/sound-effects/)   
 (https://pixabay.com/es/sound-effects/high-school-hallway-lockers-students-movement-between-periods-gets-busier-and-loud-montreal-canada-48558/)     
 [Ambience (Adult Room)]  
 (https://pixabay.com/es/sound-effects/office-ambience-24734/)  
@@ -69,6 +68,8 @@ If you have problems or do not see that light, **please ask for help**.
 
 
 Created using Tiles 036 and Times 107 from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal License.
+
+All modeling, except those described above, are made by me and are free to use.
 
 
 
