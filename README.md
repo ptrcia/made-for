@@ -2,8 +2,16 @@
 Tiny videogame project in Unity3D
 # Created by: Patricia S. Gracia Artero
 ##  Date : 26-09-23
+##  About:
+
+Made for is little game talks about routine, loneliness, sadness and life. Above all I want to convey that, despite all that, life has priceless, unforgettable moments and that it is worth it. It may be that you have a horrible job or that you had a bad childhood, but with help you can move forward, overcome problems and be able to uncover the blindfold and see a world full of life, happiness, fraternity and solidarity.
+
+The world is ugly, yes. But it can always be made a little more beautiful. 
+If you have problems or do not see that light, **please ask for help**.
 
 ##  External Resources:
+
+<pr>
 
 //**Textures**  
 
