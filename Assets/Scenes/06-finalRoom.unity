@@ -8143,8 +8143,8 @@ MonoBehaviour:
     all my classmates from the Video Game Programming in Unity course at EOI and
     especially to those who helped me with the photos:\n\n-Majou\n-Jes\xFAs Mart\xEDn\n-Alderr\n-Juan
     Jos\xE9 Rodr\xEDguez de\n\n-Ana Rocio (arrozita)\n-Gabhy Pe\xF1a\n-D\xE1vid Mart\xEDn
-    Almaz\xE1n\n\nAnd also to:\n\n-Violeta S\xE1ez\n-Elena Blanes\n-Alejandro Montero\n-Daniel
-    S\xE1nchez"
+    Almaz\xE1n\n-Alejandro Pulido\n\nAnd also to:\n\n-Violeta S\xE1ez\n-Elena Blanes\n-Alejandro
+    Montero\n-Daniel S\xE1nchez"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cf1ce2bbf8d7cb144a04da5ab8abcd7c, type: 2}
   m_sharedMaterial: {fileID: -7493673851830381940, guid: cf1ce2bbf8d7cb144a04da5ab8abcd7c, type: 2}
@@ -8207,7 +8207,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 47.445286, w: -364.49756}
+  m_margin: {x: 0, y: 0, z: 47.445286, w: -383.54736}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
