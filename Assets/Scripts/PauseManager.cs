@@ -20,6 +20,7 @@ public class PauseManager : MonoBehaviour
     {
         sliderMaster.value = PlayerPrefs.GetFloat("volumeMaster");
         Time.timeScale = 1;
+        AudioListener.pause = false;
 
     }
     private void Update()
@@ -51,7 +52,6 @@ public class PauseManager : MonoBehaviour
     public void ReloadScene()
     {
         int actualScene = SceneManager.GetActiveScene().buildIndex;
-        Time.timeScale = 0;
         AudioListener.pause = true;
         SceneManager.LoadScene(actualScene);
 

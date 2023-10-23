@@ -31,7 +31,7 @@ public class LightCarController : MonoBehaviour
              carLight.enabled = true;
          }
 
-         //Debug.Log("Ángulo de rotación alrededor del eje X: " + sunRotation + " grados");
+         Debug.Log("Ángulo de rotación alrededor del eje X: " + sunRotation + " grados");
      }  
 
 }

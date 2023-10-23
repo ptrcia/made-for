@@ -3187,6 +3187,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1431043051}
     m_Modifications:
+    - target: {fileID: 5419605288527474469, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307308541698701476, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8619341430352535941, guid: 2727fb8ef82f673459e63f7bc84bbe23, type: 3}
       propertyPath: m_Name
       value: CarBasic
