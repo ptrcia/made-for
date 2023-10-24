@@ -3,20 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//Patricia Gracia Artero
-//Free to use
-
 public class AlphaController : MonoBehaviour
-{
+{ //Make a transition from transparent to opaque and vice versa
     Image image;
 
-    private float inicialAlpha;
-    private float inicialFadeTime;
+    float inicialAlpha;
+    float inicialFadeTime;
 
-    [SerializeField]
-    float fade = 2.0f; // duration of the fading
-    [SerializeField]
-    float targetAlpha = 0;
+    [SerializeField] float fade = 2.0f; // duration of the fading
+    [SerializeField] float targetAlpha = 0;
     float progress;
 
     private void Awake()
@@ -28,7 +23,6 @@ public class AlphaController : MonoBehaviour
     {
         inicialAlpha = image.color.a; //a = alpha
         inicialFadeTime = Time.time;
-
     }
 
     private void Update()

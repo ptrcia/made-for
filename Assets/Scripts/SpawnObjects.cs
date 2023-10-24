@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-//Patricia Gracia Artero
-//Free to use
 public class SpawnObjects : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject prefab;
-    [SerializeField]
-    private Transform transformChild;
+    //This script creates clones of the prefabs I choose,
+    //and spawns them in the position and rotation of the transform i also choose.
+    [SerializeField] GameObject prefab;
+    [SerializeField] Transform transformChild;
 
     void Start()
     {
@@ -24,12 +21,7 @@ public class SpawnObjects : MonoBehaviour
 
     void CreateObjects()
     {
-        Quaternion rotation = Quaternion.Euler(
-                Random.Range(0, 360),
-                Random.Range(0, 360),
-                Random.Range(0, 360));
         GameObject prefabClone = Instantiate(prefab, transformChild.position, transform.rotation);
-
         Invoke("CreateObjects", Random.Range(2f, 4f));
     }
 

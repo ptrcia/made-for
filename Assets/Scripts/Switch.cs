@@ -3,30 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-//Patricia Gracia Artero
-//Free to use
+//When the swich rotates, like when a normal switch is pressed, things happen.
+
 public class Switch : MonoBehaviour
 {
-    [SerializeField]
     Transform switchButton;
-    [SerializeField]
-    private UnityEvent pressSwitch;
+    [SerializeField] UnityEvent pressSwitch;
     float rotX;
 
     void Start()
     {
         switchButton = GetComponent<Transform>();
-        //rotX = switchButton.transform.rotation.eulerAngles.x; //i didnt understand why i wasnt getting the right mesurements
     }
-
-
     void Update()
     {
-        rotX = switchButton.transform.rotation.eulerAngles.x; //i was because it must be on the update (duh!A)
+        rotX = switchButton.transform.rotation.eulerAngles.x; 
         //Debug.Log(rotX);
         if(rotX  > 300)
         {
             pressSwitch.Invoke();
+            //canvasCam.SetActive = true;
+            //switch.gameObject.SetActive = true;
+            //hospitalAudio.Stop();
         }
     }
 }

@@ -2,15 +2,12 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.Events;
 
-//Patricia Gracia Artero
-//Free to use
+//Control of the time and the events in the proyect
 
 public class WaitForSeconds : MonoBehaviour
 {
-    [SerializeField]
-    private float seconds;
-    [SerializeField]
-    private UnityEvent action;
+    [SerializeField] float seconds;
+    [SerializeField] UnityEvent action;
 
     void Start()
     {

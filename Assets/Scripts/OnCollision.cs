@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-//Patricia Gracia Artero
-//Free to use
+//I can told to do whatever when collisioned
+
 public class OnCollision : MonoBehaviour
 {
     private Collider objectCollider;

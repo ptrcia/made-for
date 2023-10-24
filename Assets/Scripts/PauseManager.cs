@@ -5,22 +5,21 @@ using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-//Patricia Gracia Artero
-//Free to use
+//Manager:
+//  -Reaload Level
+//  -Controls volume
+//  -Active/Disable pauseMenu
 public class PauseManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject pausePanel;
-    [SerializeField]
-    private Slider sliderMaster;
-    [SerializeField]
-    private AudioMixer audioMixer;
+    [SerializeField] GameObject pausePanel;
+    [SerializeField] Slider sliderMaster;
+    [SerializeField] AudioMixer audioMixer;
 
     private void Start()
     {
         sliderMaster.value = PlayerPrefs.GetFloat("volumeMaster");
-        Time.timeScale = 1;
-        AudioListener.pause = false;
+        Time.timeScale = 1; //important to remember unity to set it play
+        AudioListener.pause = false; //important to say to unity to unpause music
 
     }
     private void Update()
@@ -41,7 +40,6 @@ public class PauseManager : MonoBehaviour
                 //Cursor.lockState = CursorLockMode.None;
                 Time.timeScale = 0;
                 AudioListener.pause = true;
-
             }
         }
     }
@@ -54,6 +52,5 @@ public class PauseManager : MonoBehaviour
         int actualScene = SceneManager.GetActiveScene().buildIndex;
         AudioListener.pause = true;
         SceneManager.LoadScene(actualScene);
-
     }
 }

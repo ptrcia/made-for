@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//Patricia Gracia Artero
-//Free to use
+//Move gameObjects the direction i want them to
 
 public class IndependentMovement : MonoBehaviour
 {
@@ -24,7 +23,6 @@ public class IndependentMovement : MonoBehaviour
         else if (up)
         {
             destination = transform.position + Vector3.up * distanceDestination;
-
         }
     }
 

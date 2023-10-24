@@ -1,18 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-//using Unity.VisualScripting;
 using UnityEngine;
 
-//Patricia Gracia Artero
-//Free to use
 public class LightCarController : MonoBehaviour
 {
-     [SerializeField]
-     private Light carLight;
-     [SerializeField]
-     private Transform sun;
-     [SerializeField]
-     private float sunRotation;
+    //The lights of the car changes with the posicion of the sun 
+     [SerializeField] Light carLight;
+     [SerializeField] Transform sun;
+     [SerializeField] float sunRotation;
 
      void Awake()
      {
@@ -22,7 +17,7 @@ public class LightCarController : MonoBehaviour
      {
          sunRotation = sun.transform.localEulerAngles.x; //localEulerAngels to transform the nombers from randomness to something manageable
 
-         if(sunRotation > 0 && sunRotation < 90) //0, 180   /50,330
+         if(sunRotation > 0 && sunRotation < 90)
          {
              carLight.enabled = false;   
          }
@@ -31,7 +26,7 @@ public class LightCarController : MonoBehaviour
              carLight.enabled = true;
          }
 
-         Debug.Log("Ángulo de rotación alrededor del eje X: " + sunRotation + " grados");
+         //Debug.Log("Ángulo de rotación alrededor del eje X: " + sunRotation + " grados");
      }  
 
 }

@@ -2,32 +2,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 
-//Patricia Gracia Artero
-//Free to use
+
 public class MenuController : MonoBehaviour 
 {
+    //Manage the scenes
     Scene sceneLoaded;
     private void Start()
     {
         sceneLoaded = SceneManager.GetActiveScene();
-
     }
     void Update()
     {
-        /*if (Input.GetKeyDown("escape")) //Exit the application using ESC
-        {
-            Debug.Log("Estoy saliendo");
-            Exit();
-        }*/
-
-        /*if (continueScene.activeInHierarchy)
-        {
-            if (Input.GetKeyDown(KeyCode.B) || Input.GetKeyDown(KeyCode.Return))
-            {
-                SceneManager.LoadScene(sceneLoaded.buildIndex + 1);
-            }
-        }*/
-
         //I know this is outrageous, but it works :)
         //Is a shortcut for me to work easier
         if (Input.GetKey("0"))

@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-//Patricia Gracia Artero
-//Free to use
+//Respawn the player in the position I choose
+//when it collision with the gameObject this is attached to
 public class RespawnScene : MonoBehaviour
 {
      [SerializeField]Transform respawnPoint;

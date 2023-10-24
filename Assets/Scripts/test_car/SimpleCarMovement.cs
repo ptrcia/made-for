@@ -3,8 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Patricia Gracia Artero
-//Free to use
+//Tank Movement but with the rotation of the wheels
 
 public class SimpleCarMovement : MonoBehaviour
 {
@@ -36,7 +35,6 @@ public class SimpleCarMovement : MonoBehaviour
 
     void Move()
     {
-
         //the movement i want it to do
         Vector3 movement = transform.forward * vertical * speed * Time.deltaTime;
 
