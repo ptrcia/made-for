@@ -1198,7 +1198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f4907753dc5edc42814134a5c2a4e66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  switchButton: {fileID: 0}
   pressSwitch:
     m_PersistentCalls:
       m_Calls:
@@ -4461,6 +4460,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3542993585750812374, guid: 58ba316c7a83d0041bc802e25b49da29, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7f0ada7dbc6f474faf33f5415c1e7d3, type: 2}
     - target: {fileID: 8942605443986586275, guid: 58ba316c7a83d0041bc802e25b49da29, type: 3}
       propertyPath: m_Limits.max
       value: 6.954884
